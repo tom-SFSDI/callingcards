@@ -10,7 +10,7 @@ class CallingCard {
     return this.remainingTime
   }
   getRemainingMinutes() {
-    return console.log(`${this.remainingTime} minutes left`);
+    return console.log(`${this.remainingTime} minutes left.`);
   }
   useMinutes(minutes) {
     this.remainingTime -= minutes;
